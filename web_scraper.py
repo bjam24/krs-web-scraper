@@ -6,7 +6,7 @@ import pandas as pd
 import csv
 
 
-def initialize_driver():
+def initialize_driver() -> tuple:
     options = webdriver.ChromeOptions()
 
     options.add_experimental_option('prefs', {
@@ -26,7 +26,7 @@ def initialize_driver():
     return driver_org, driver_rep, driver_con
 
 
-def scrape_krs_data(start_num, end_num):
+def scrape_krs_data(start_num: int, end_num: int) -> pd.DataFrame:
     driver_organizations, driver_representatives, driver_connections = initialize_driver()
     krs_dataset = pd.DataFrame(columns=['OrganizationName', 'Representatives', 'ConnectedOrganizations'])
 
@@ -78,6 +78,7 @@ def scrape_krs_data(start_num, end_num):
                     krs_dataset_row['ConnectedOrganizations'] = ', '.join(map(lambda x: f"'{x}'", list_of_connections))
                 else:
                     krs_dataset_row['ConnectedOrganizations'] = np.nan
+
                 krs_dataset = pd.concat([krs_dataset, pd.DataFrame([krs_dataset_row])], ignore_index=True)
 
     driver_organizations.quit()
@@ -87,8 +88,8 @@ def scrape_krs_data(start_num, end_num):
 
 
 if __name__ == '__main__':
-    start_num = 10000
-    end_num = 15000
+    start_num = 20000
+    end_num = 25000
     krs_dataset = scrape_krs_data(start_num, end_num)
     krs_dataset.to_csv(f'krs_data_{start_num}_{end_num}.csv', encoding='utf-8-sig', index=False, sep=',', quotechar='"',
                        quoting=csv.QUOTE_ALL)
