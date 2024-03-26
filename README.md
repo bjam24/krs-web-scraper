@@ -3,6 +3,7 @@ This project is a part of bigger project called **Analysis of data from the Nati
 Every team member had tasks to do. I was responsible for KRS data collection through the use of my programmed web scraper in Selenium.
 
 ## Analysis of data from the National Court Register (Krajowa Rada Sądownictwa in Polish)
+### What is National Court Register (KRS) ?
 **THIS SECTION IS UNDER CONSTRUCTION BECAUSE DESCRIBED PROJECT HAS NOT BEEN FINISHED YET**
 
 <p align="center">
