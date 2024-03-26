@@ -26,6 +26,12 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 <img src="images/krs_example_connections.jpg" width="600"/>
 </p>
 
+5. Every profile has own website. On such website are visible all person's connections with organizations. Web scraper scrapes this data. Moreover it is able to scrape current oranization name instead of old name of
+   organziation. Some data is not visible for average human. There are information hideen in web site details such as KRS numbers of connected organizations from a list.
+
+6. How data can be stored and what is chosen format? Well the purpose of **Analysis of data from the National Court Register** project is visualization of different personal connections among companies.
+   Therefore scraped data must be stored in particular order. Below is proposed order of columns and data distribution in CSV file. Mentioned file is created and saved in the same folder in which web scraper is located.
+
 ## How to use web scraper
 
 ## Future work
