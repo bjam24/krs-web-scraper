@@ -38,9 +38,9 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
    Therefore scraped data must be stored in particular order. Below is proposed order of columns and data distribution in CSV file. Mentioned file is created and saved in the same folder in which web scraper is located.
 
 ## How to use web scraper
-
+**THIS SECTION IS UNDER CONSTRUCTION**
 ## Future work
-
+**THIS SECTION IS UNDER CONSTRUCTION**
 ## Data Source
 - Rejestr.io | Wyszukiwarka danych z KRS https://rejestr.io/krs/
 
