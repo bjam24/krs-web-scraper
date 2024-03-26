@@ -4,7 +4,7 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 
 ## Analysis of data from the National Court Register
 
-## How doeas it work
+## How does it work
 
 ## How to use web scraper
 
