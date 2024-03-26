@@ -10,6 +10,9 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 
 ## Future work
 
+## Data Source
+- Rejestr.io | Wyszukiwarka danych z KRS https://rejestr.io/krs/
+
 ## Technology stack
 - Python
 
