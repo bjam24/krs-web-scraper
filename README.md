@@ -5,7 +5,7 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 ## Analysis of data from the National Court Register
 
 <p align="center">
-<img src="images/krs_org_rep_con.jpg" width="600"/>
+<img src="images/graph_org_rep_con.jpg" width="600"/>
 </p>
 
 ## How does it work
