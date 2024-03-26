@@ -9,7 +9,7 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 2. Because the complete list of valid KRS numbers is unknown to me, web scraper checks every single number from given interval by pasting it into the search bar on the website.
 
 <p align="center">
-<img src="images/krs_search.jpg" width="800"/>
+<img src="images/krs_search.jpg" width="600"/>
 </p>
 
 ## How to use web scraper
