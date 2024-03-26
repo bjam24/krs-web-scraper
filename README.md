@@ -19,6 +19,9 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 <img src="images/krs_example_representatives.jpg" width="600"/>
 </p>
 
+4. More of encountered profiles have their personal websites where person's connections with other organziations are visible. However sometimes such website do not exist. Particulay in situation when board member is
+   not Polish citizen. Please remember this is not the rule. Web scraper handles missing websites and continues scraping useful information from available profiles.
+
 ## How to use web scraper
 
 ## Future work
