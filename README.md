@@ -5,6 +5,8 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 ## Analysis of data from the National Court Register
 
 ## How does it work
+1. Web scraper opens Rejestr.io | Wyszukiwarka danych z KRS website.
+2. Because the complete list of valid KRS numbers is unknown to me, web scraper checks every single number from given interval by pasting the KRS number into the search bar on the website.
 
 ## How to use web scraper
 
