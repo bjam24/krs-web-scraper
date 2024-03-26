@@ -12,7 +12,8 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 <img src="images/krs_search.jpg" width="600"/>
 </p>
 
-3. 
+3. Web scraper omits unused KRS numbers or KRS numbers of companies that no longer exist (removed website of a company). When program encounters website of existing company it scrapes company name and full names
+   of board memebers.
 
 <p align="center">
 <img src="images/krs_example_representatives.jpg" width="600"/>
