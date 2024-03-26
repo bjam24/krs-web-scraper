@@ -12,6 +12,12 @@ Every team member had tasks to do. I was responsible for KRS data collection thr
 <img src="images/krs_search.jpg" width="600"/>
 </p>
 
+3. 
+
+<p align="center">
+<img src="images/krs_example_representatives.jpg" width="600"/>
+</p>
+
 ## How to use web scraper
 
 ## Future work
