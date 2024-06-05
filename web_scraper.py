@@ -106,7 +106,7 @@ def scrape_krs_data(start_num: int, end_num: int) -> pd.DataFrame:
                                     list_of_connections.append(connection.text)
                         krs_dataset_row['ConnectedOrganizations'] = str(
                             dict(zip(list_of_connections, list_of_connections_krs))).replace('{', '').replace('}',
-                                                                                                              '')  # ', '.join(map(lambda x: f"'{x}'", list_of_connections))
+                                                                                                              '')
                     else:
                         krs_dataset_row['ConnectedOrganizations'] = np.nan
 
