@@ -120,8 +120,8 @@ def scrape_krs_data(start_num: int, end_num: int) -> pd.DataFrame:
 
 
 if __name__ == '__main__':
-    start_num = 20000
-    end_num = 20100
+    start_num = 30000
+    end_num = 35000
     krs_dataset = scrape_krs_data(start_num, end_num)
     krs_dataset.to_csv(f'data/krs_data_{start_num}_{end_num}.csv', encoding='utf-8-sig', index=False, sep=',',
                        quotechar='"', quoting=csv.QUOTE_ALL)
